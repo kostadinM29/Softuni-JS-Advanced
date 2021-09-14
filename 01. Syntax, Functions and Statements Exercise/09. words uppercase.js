@@ -1,4 +1,3 @@
-  
 function calc(words) {
     return words.match(/\w+/g).join(", ").toLocaleUpperCase()
 }
